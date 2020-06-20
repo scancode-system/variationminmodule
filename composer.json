@@ -1,0 +1,29 @@
+{
+    "name": "scancode-system/variation-min-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\VariationMin\\Providers\\VariationMinServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VariationMin\\": ""
+        }
+    },
+    "type": "laravel-module",
+    "require": {
+        "scancode-system/variation-module":"^2.0"
+    }
+}

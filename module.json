@@ -1,0 +1,13 @@
+{
+    "name": "VariationMin",
+    "alias": "variationmin",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\VariationMin\\Providers\\VariationMinServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
