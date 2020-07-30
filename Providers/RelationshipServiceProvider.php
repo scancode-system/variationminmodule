@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
 use Modules\Product\Entities\Product;
-use Modules\Variation\Entities\VariationMin;
+use Modules\VariationMin\Entities\VariationMin;
 
 
 class RelationshipServiceProvider extends ServiceProvider
